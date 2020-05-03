@@ -1,6 +1,6 @@
 from scrapy import Spider
-from car_company.items import CarCompany
-from car_company.spiders import PostgresUtils
+from scrapy_modules.items import CarCompany
+from scrapy_modules.spiders import PostgresUtils
 from datetime import datetime
 import json
 import logging

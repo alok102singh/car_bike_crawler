@@ -1,7 +1,7 @@
 from scrapy.selector import Selector
 from scrapy import Spider, Request
-from car_company.items import BikeCompany
-from car_company.spiders import PostgresUtils
+from scrapy_modules.items import BikeCompany
+from scrapy_modules.spiders import PostgresUtils
 import logging
 from datetime import datetime
 
