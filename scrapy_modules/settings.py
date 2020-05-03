@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for car_company project
+# Scrapy settings for scrapy_modules project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'car_company'
+BOT_NAME = 'scrapy_modules'
 
-SPIDER_MODULES = ['car_company.spiders']
-NEWSPIDER_MODULE = 'car_company.spiders'
+SPIDER_MODULES = ['scrapy_modules.spiders']
+NEWSPIDER_MODULE = 'scrapy_modules.spiders'
 
 LOG_LEVEL = 'INFO'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'car_company (+http://www.yourdomain.com)'
+#USER_AGENT = 'scrapy_modules (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'car_company.middlewares.CarCompanySpiderMiddleware': 543,
+#    'scrapy_modules.middlewares.CarCompanySpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'car_company.middlewares.CarCompanyDownloaderMiddleware': 543,
+#    'scrapy_modules.middlewares.CarCompanyDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'car_company.pipelines.CarCompanyPipeline': 300,
+#    'scrapy_modules.pipelines.CarCompanyPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
